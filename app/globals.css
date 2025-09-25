@@ -1,8 +1,17 @@
 @import "tailwindcss";
 
+/*
+oran DA5A17
+whit DDDDDD
+blac 000000
+coff 6C4C30
+blue 3581B8
+*/
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #DDDDDD;
+  --foreground: #000000;
+  --color-orang: #DA5A17;
 }
 
 @theme inline {
@@ -10,13 +19,19 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-orang: var(--color-orang);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+html,
+body {
+  box-sizing: border-box;
 }
 
 body {
