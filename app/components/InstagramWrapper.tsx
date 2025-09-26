@@ -2,15 +2,6 @@
 
 import { useEffect } from "react";
 
-const iFrameStyle = {
-  height: "100vh",
-  overflowY: "scroll",
-  scrollbarWidth: "thin", // Firefox
-  scrollbarColor: "#888 #f1f1f1", // Firefox
-  border: "none",
-  width: "100%",
-};
-
 const InstagramWrapper = () => {
   useEffect(() => {
     // Ensure Elfsight script is loaded only once
@@ -28,7 +19,7 @@ const InstagramWrapper = () => {
     <div className="w-full h-full" data-elfsight-app-lazy>
       <iframe
         src="https://c6172c3d25884ab48dc94b7a364be7cb.elf.site"
-        style={iFrameStyle}
+        style={{ border: "none", width: "100%", height: "100vh" }}
         className="rounded-2xl"
       ></iframe>
     </div>
