@@ -8,18 +8,26 @@ const HeroLogoWrapper = () => {
       <Image
         src={"/images/logos/erl-the-bird-text.png"}
         alt="Logo Vertical"
-        width={300}
-        height={300}
+        width={325}
+        height={325}
         quality={100}
-        className="-rotate-14 lg:hidden block"
+        className="-rotate-14 lg:hidden md:hidden block"
+      />
+      <Image
+        src={"/images/logos/erl-the-bird-text.png"}
+        alt="Logo Vertical"
+        width={450}
+        height={450}
+        quality={100}
+        className="-rotate-14 lg:hidden md:block hidden"
       />
       <Image
         src={"/images/logos/erl-the-bird-text-x.png"}
-        alt="Logo Vertical"
-        width={700}
-        height={700}
+        alt="Logo Horizontal"
+        width={1000}
+        height={1000}
         quality={100}
-        className="-rotate-8 lg:block hidden"
+        className="-rotate-8 lg:block md:hidden hidden"
       />
     </div>
   );
