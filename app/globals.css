@@ -16,6 +16,8 @@ crea FDF3DB
   --color-orang: #DA5A17;
   --color-whit: #DDDDDD;
   --color-crea: #FDF3DB;
+  --color-coff: #6C4C30;
+  --color-blac: #000000;
 }
 
 @theme inline {
@@ -27,6 +29,8 @@ crea FDF3DB
   --color-orang: var(--color-orang);
   --color-whit: var(--color-whit);
   --color-crea: var(--color-crea);
+  --color-coff: var(--color-coff);
+  --color-blac: var(--color-blac);
 }
 
 @media (prefers-color-scheme: light) {
