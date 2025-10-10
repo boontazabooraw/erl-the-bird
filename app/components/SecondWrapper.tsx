@@ -3,10 +3,10 @@
 import { motion } from "motion/react";
 
 import { SiYoutubemusic } from "react-icons/si";
-import { FaDeezer } from "react-icons/fa";
+import { FaDeezer, FaSpotify } from "react-icons/fa";
 
 import InstagramWrapper from "./InstagramWrapper";
-import SpotifyWrapper from "./SpotifyWrapper";
+import YtVideoWrapper from "./YtVideoWrapper";
 
 const SecondWrapper = () => {
   return (
@@ -19,9 +19,9 @@ const SecondWrapper = () => {
           viewport={{ once: true }}
           className="text-4xl text-center"
         >
-          Listen to our latest single
+          Watch the Music Video of our latest track
         </motion.h1>
-        <SpotifyWrapper />
+        <YtVideoWrapper />
         <motion.h1
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -40,14 +40,21 @@ const SecondWrapper = () => {
         >
           <motion.a
             whileHover={{ rotate: -20 }}
-            href="https://link.deezer.com/s/319vQyLF8EqRNU0GDfvC7"
+            href="https://open.spotify.com/track/7tdrzODwnI46X1hsCyyXxj?si=fb71aa47adcb4ae4"
+            className="hover:text-[#00d44b] transition-colors duration-300"
+          >
+            <FaSpotify size={50} />
+          </motion.a>{" "}
+          <motion.a
+            whileHover={{ rotate: -20 }}
+            href="https://link.deezer.com/s/31hBaHYNa6WXYAs9pFObw"
             className="hover:text-[#8c3bfa] transition-colors duration-300"
           >
             <FaDeezer size={60} />
           </motion.a>
           <motion.a
             whileHover={{ rotate: 20 }}
-            href="https://music.youtube.com/watch?v=ioHRRQkxI-0&si=arGAAgXABT2pHfbz"
+            href="https://music.youtube.com/watch?v=odcU12OkwNg&si=Qf_3wt1VBeHTqR0W"
             className="hover:text-[#ff0000] transition-colors duration-300"
           >
             <SiYoutubemusic size={50} />
