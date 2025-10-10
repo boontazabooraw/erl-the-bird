@@ -42,6 +42,7 @@ const SecondWrapper = () => {
             whileHover={{ rotate: -20 }}
             href="https://open.spotify.com/track/7tdrzODwnI46X1hsCyyXxj?si=fb71aa47adcb4ae4"
             className="hover:text-[#00d44b] transition-colors duration-300"
+            target="_blank"
           >
             <FaSpotify size={50} />
           </motion.a>{" "}
@@ -49,6 +50,7 @@ const SecondWrapper = () => {
             whileHover={{ rotate: -20 }}
             href="https://link.deezer.com/s/31hBaHYNa6WXYAs9pFObw"
             className="hover:text-[#8c3bfa] transition-colors duration-300"
+            target="_blank"
           >
             <FaDeezer size={60} />
           </motion.a>
@@ -56,6 +58,7 @@ const SecondWrapper = () => {
             whileHover={{ rotate: 20 }}
             href="https://music.youtube.com/watch?v=odcU12OkwNg&si=Qf_3wt1VBeHTqR0W"
             className="hover:text-[#ff0000] transition-colors duration-300"
+            target="_blank"
           >
             <SiYoutubemusic size={50} />
           </motion.a>
