@@ -12,7 +12,7 @@ const SecondWrapper = () => {
   return (
     <div className="p-5 flex flex-col gap-20 bg-orang text-crea text-shadow-lg">
       <div className="flex flex-col gap-2 font-lucky">
-        <motion.h1
+        <motion.h2
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.2, delay: 0.2 }}
@@ -20,9 +20,9 @@ const SecondWrapper = () => {
           className="text-4xl text-center"
         >
           Watch the Music Video of our latest track
-        </motion.h1>
+        </motion.h2>
         <YtVideoWrapper />
-        <motion.h1
+        <motion.h3
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.2, delay: 0.2 }}
@@ -30,7 +30,7 @@ const SecondWrapper = () => {
           className="text-2xl text-center font-lucky"
         >
           Also available on these platforms
-        </motion.h1>
+        </motion.h3>
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}

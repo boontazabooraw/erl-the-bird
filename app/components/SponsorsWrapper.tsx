@@ -24,21 +24,21 @@ const SponsorsWrapper = () => {
         {/* <div className="relative w-[100px] h-[100px] md:w-[100px] md:h-[100px]"> */}
         <Image
           src={"/images/logos/RIMSHOT_LOGO.png"}
-          alt="SweetBrag Logo"
+          alt="Rimshot Drumsticks"
           width={300}
           height={100}
           quality={100}
         />
         <Image
           src={"/images/logos/SWEETBRAG_LOGO.png"}
-          alt="SweetBrag Logo"
+          alt="SweetBrag Clothing"
           width={100}
           height={100}
           quality={100}
         />
         <Image
           src={"/images/logos/LOSTBOYSCLUB_LOGO.png"}
-          alt="SweetBrag Logo"
+          alt="Lostboysclub Production"
           width={100}
           height={100}
           quality={100}

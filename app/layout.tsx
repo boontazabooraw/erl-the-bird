@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono} from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import BgImgWrapper from "./components/BgImgWrapper";
 
-const luckiestGuy = localFont ({
+const luckiestGuy = localFont({
   src: "/fonts/LuckiestGuy/LuckiestGuy-Regular.ttf",
   variable: "--font-lucky",
-})
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,8 +20,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Erl, The Bird",
-  description: "Bird Mode LETSGOOOO!",
+  title: "Erl, The Bird - Official Website",
+  description:
+    "Official site of Erl, the Bird. Watch our latest music video and stream our songs on Spotify, Deezer and, Youtube Music. Bird Mode LETSGOOOO!",
 };
 
 export default function RootLayout({
